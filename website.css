@@ -1,0 +1,180 @@
+html {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+
+.banner-top img {
+    width: 50px;
+    text-align: left;
+}
+
+h1 {
+    background-color: rgb(23, 140, 243);
+    text-align: center;
+    color: aliceblue;
+    inline-size: 100%;
+    position: absolute;
+    margin: 0%;
+}
+
+.background {
+    background-image: url(background.png);
+    background-size: 30cm auto;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 18pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : rgb(44, 215, 230);     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+    border        : 2px solid rgb(44, 215, 230);    /* 枠の指定 */
+}
+
+.button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : rgb(44, 215, 230);     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.green {
+    background-color: rgb(77, 77, 77);
+    margin: 0%;
+}
+
+.blue {
+    text-align: center;
+    background-color: rgb(59, 131, 255);
+    z-index: 100;
+    margin: 0%;
+}
+
+.title {
+    background-color: rgb(23, 140, 243);
+    inline-size: 10%;
+    font-size: 100%;
+}
+
+.resizeimage img { width: 100vw; }
+.resizeimage { width: 100%; }
+.resizeimage img { width: 100%; }
+
+.icon {
+    inline-size: 10%;
+}
+
+#fixed {
+    position: fixed;
+    /*基準を画面の左上に*/
+    top: 0;
+    left: 0;
+    /*余白が入らないように*/
+    margin: 0;
+    /*以下装飾*/
+    width: 100%;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 100%;
+    margin: 0%;
+}
+
+.black {
+    background-color: rgb(43, 43, 43);
+    inline-size: 99%;
+    position: absolute;
+    margin: 0%;
+}
+
+.end {
+    text-align: left;
+    font-size: 10%;
+    margin: 0%;
+}
+
+.end2 {
+    text-align: right;
+    margin-left: 75%;
+    margin-top: 0%;
+    margin: 0%;
+    inline-size: 15%;
+}
+
+.cp_link {
+    font-size: 100%;
+	padding: 0.1em 0.3em;
+	background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, rgba(255,152,0,1) 50%);
+	background-position: 0 0;
+	background-size: 200% auto;
+	transition: .2s;
+	color: #ffffff;
+    text-decoration: none;
+}
+.cp_link:hover {
+	background-position: -100% 0;
+	color: #fff;
+}
+
+.content{
+    margin: 0 auto;
+    width: 20%;
+    height: 20%;
+    overflow: scroll;
+    -ms-overflow-style: none;    /* IE, Edge 対応 */
+    scrollbar-width: none;       /* Firefox 対応 */
+}
+
+.content::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+    display:none;
+}
+
+@media (min-width: 600px) {
+    #parent {
+      display: flex;
+    }
+    #child1 {
+      flex-grow: 1;
+    }
+    #child2 {
+      flex-grow: 1;
+    }
+}
+
+#child1 {
+    background-color: lightblue;
+}
+  #child2 {
+    background-color: lightgreen;
+}
+
+.left {
+    text-align: left;
+}
+
+img.join-discord {
+    width: 1px;
+    left: 50;
+
+}
